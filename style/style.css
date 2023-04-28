@@ -48,6 +48,10 @@ background: rgba(0, 0, 0, 0.5);
   height: 50px;
   overflow: hidden;
 }
+/* #movie
+{
+  height: 100vh;
+} */
 
 .card:hover .image {
   opacity: 0.6;
@@ -78,6 +82,9 @@ background: rgba(0, 0, 0, 0.5);
 }
 .btn-yellow{
   background-color: #F5D061;
+}
+.btn-yellow:hover{
+  background-color: #111212;
 }
 body{
   background-color: #111212;
@@ -207,7 +214,7 @@ place-items: center;
   color: #F8F6F6;
 }
 .logo-body{
-  width: 60%;
+  width: 40%;
   height: 70%;
 }
 .font-login{
@@ -286,4 +293,19 @@ body {
 
 .row {
   padding: 0;
+}
+#login:hover
+{
+  background-color: #F5D061;
+  color: white;
+}
+#ep
+{
+  background-color: red;
+  color: white;
+}
+#ep:hover
+{
+  background-color: transparent;
+  
 }

@@ -11,7 +11,7 @@ let movie=[
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
-        title:"HOWL'S",
+        title:"HOW'S MOVING CASTLE",
         img:"./img/movie2.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
@@ -21,12 +21,12 @@ let movie=[
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
-        title:"Car Go",
+        title:"CARGO",
         img:"./img/movie4.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
-        title:"Avengers",
+        title:"Avengers : Endgame",
         img:"./img/movie5.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
@@ -51,13 +51,13 @@ let movie=[
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
-        title:"Jujutsu Kaisen",
-        img:"./img/serie0.jpg",
+        title:"Godzilla",
+        img:"./img/movie10.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
-        title:"Demon Slayer",
-        img:"./img/serie1.jpg",
+        title:"Black Panther II",
+        img:"./img/movie11.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     }
 ]
@@ -71,9 +71,9 @@ let card=""
 let series=""
 movie.map((el)=>{
     card+=`
-    <div class="col-lg-2 col-md-3 col-sm-4">
+    <div class="col-lg-2 col-md-4 col-sm-3">
             <div class="card h-75">
-                <img src="${el.img}" alt="Avatar" class="image h-100 rounded" style="width:100%">
+                <img src="${el.img}" alt="Avatar" class="image h-100 rounded" id="movie" style="width:100%">
                 <div class="middle rounded">
                   <div  class="text w-100"><a href="display.html">${el.title}</a></div>
                 </div>

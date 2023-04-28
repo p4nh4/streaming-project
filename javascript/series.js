@@ -1,8 +1,10 @@
+
 let movie=[
     {
         id:1,
         title:"World War Z",
         img:"./img/movie0.jpg",
+        bimg:"https://i.pinimg.com/564x/32/04/03/320403ab9481818613d1eecf350a57d1.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
@@ -61,8 +63,8 @@ let movie=[
     },
     {
         id:11,
-        title:"Jujutsu Kaisen",
-        img:"./img/serie0.jpg",
+        title:"Godzillar",
+        img:"./img/movie10.jpg",
         date:"2020 ‧ Anime ‧ 1 season"
     },
     {
@@ -75,17 +77,17 @@ let movie=[
 series=""
 movie.map((se)=>{
     series+=`
-    <div class="row image-shadow position-relative" style="background-image: url('${se.img}');   background-repeat:no-repeat;
+    <div class="row image-shadow position-relative" style="background-image: url();   background-repeat:no-repeat;
     background-size: cover;
     background-position: 70%; opacity:0.9;">
                 <div class=" col-lg-5 col-md-5 d-flex justify-content-center align-items-center">
-                    <div class="card w-50 h-50 ">
+                    <div class="card w-75 h-75 ">
                     <img src="${se.img}"  alt="" srcset="" class="w-100 h-100 rounded" >
                 </div>
                 </div>
                 <div class="col-lg-7 col-md-7 d-flex align-items-center">
                     <div class="mt-5">
-                       <p style="color:#F8F6F6">${se.date}</p>
+                 
                        <h1 style="color:#F8F6F6" class="font-title">${se.title}</h1>
                        <button type="button" style="color:#F8F6F6"  class="btn btn-secondary bg-btn-color bg-btn border-btn font-title "><a style="text-decoration: none; color: #F8F6F6;" href="view.html">WATCH NOW</a></button>
                        <div class="row">
